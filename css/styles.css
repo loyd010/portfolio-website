@@ -206,3 +206,7 @@ button:focus,
   padding: 60px;
   animation: 3s enlarge-city 10 alternate linear;
 }
+
+.contact-info{
+  padding: 20px;
+}
