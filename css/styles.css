@@ -1,13 +1,13 @@
-/*Colors used
+/* Colors used
 
 Text Color (dark slategrey): #2f4f4f;
 Primary Color (navy): #000080;
 Secondary Color (slategrey): #708090;
 Background-color (ghostwhite): #f8f8ff;
 
-For font: font-family: 'Montserrat', sans-serif;*/
+For font: font-family: 'Montserrat', sans-serif; */
 
-:root{
+:root {
   --primary-color: #000080;
   --secondary-color: #708090;
   --text-color: #2f4f4f;
@@ -16,7 +16,7 @@ For font: font-family: 'Montserrat', sans-serif;*/
   --padding20: 20px;
 }
 
-body{
+body {
   font-family: 'Montserrat', sans-serif;
   font-weight: 300;
   font-size: 16px;
@@ -24,45 +24,46 @@ body{
   color: var(--text-color);
   background-color: white;
 }
-s
-h1{
+
+h1 {
   font-size: 30px;
   font-weight: var(--font-weight700);
   line-height: var(--line-height);
 }
 
-h2{
+h2 {
   font-size: 24px;
   font-weight: var(--font-weight700);
   line-height: var(--line-height);
 }
 
-h3{
+h3 {
   font-size: 18px;
   font-weight: var(--font-weight700);
   line-height: var(--line-height);
 }
 
-a:link{
+a:link {
   color: var(--primary-color);
 }
 
-a:visited{
+a:visited {
   color: var(--secondary-color);
 }
 
-a:hover, a:focus{
+a:hover,
+a:focus {
   text-decoration: none;
   font-weight: var(--font-weight700);
 }
 
-a:active{
-  color: #000000;
+a:active {
+  color: #000;
   font-weight: var(--font-weight700);
 }
 
 button,
-.button{
+.button {
   border: none;
   display: inline-block;
   font-family: inherit;
@@ -71,34 +72,34 @@ button,
   text-decoration: none;
   padding: 10px;
   border-radius: 3px;
-  border-bottom: 2px solid rgba(0,0,0,0.3);
+  border-bottom: 2px solid rgba(0, 0, 0, 0.3);
   width: 200px;
   height: 50px;
-  transition: width 2s, height 2s, opacity .9s;
+  transition: width 2s, height 2s, opacity 0.9s;
 }
 
 button:hover,
 button:focus,
 .button:hover,
-.button:focus{
+.button:focus {
   cursor: pointer;
-  opacity: .8;
+  opacity: 0.8;
   width: 230px;
   height: 50px;
 }
 
-.navigation-list__item--active{
+.navigation-list__item--active {
   text-decoration: none;
 }
 
-.profile_portrait{
+.profile_portrait {
   float: left;
   width: 250px;
   margin-right: 40px;
   border-radius: 50%;
 }
 
-.page-footer{
+.page-footer {
   clear: both;
   display: flex;
   flex-direction: column;
@@ -106,107 +107,110 @@ button:focus,
 }
 
 .profile,
-.personal-information{
+.personal-information {
   max-width: 700px;
   margin: 0 auto;
 }
 
-.personal-information{
+.personal-information {
   text-align: center;
 }
 
-*{
+* {
   box-sizing: border-box;
 }
 
-.page-header{
+.page-header {
   display: flex;
   width: 100%;
   padding: var(--padding20);
   border-bottom: 1px solid var(--text-color);
 }
 
-.page-header__item{
+.page-header__item {
   flex: 0 1 200px;
 }
 
-.page-header__item:last-child{
+.page-header__item:last-child {
   flex-grow: 1;
   text-align: right;
 }
 
 .navigation-list,
-.hobbies-list{
+.hobbies-list {
   list-style-type: none;
 }
 
-.navigation-list li{
+.navigation-list li {
   display: inline-block;
   margin-left: 15px;
 }
 
-.grid{
+.grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 20px;
   padding: var(--padding20);
 }
 
-.grid__item{
+.grid__item {
   background-color: lightgray;
 }
 
-.grid__item:last-child{
+.grid__item:last-child {
   grid-column-start: 3;
   grid-column-end: 3;
   grid-row-start: 1;
   grid-row-end: 3;
 }
 
-.work-heading{
+.work-heading {
   padding: var(--padding20);
 }
 
 @media all and (max-width: 500px) {
-  .grid{
+  .grid {
     grid-template-columns: 1fr;
   }
 }
 
-@media all and (min-width: 500px) and (max-width: 750px){
-  .grid{
+@media all and (min-width: 500px) and (max-width: 750px) {
+  .grid {
     grid-template-columns: 1fr 1fr;
   }
 }
 
-@media all and (max-width: 750px){
-  .grid{
+@media all and (max-width: 750px) {
+  .grid {
     grid-gap: 10px;
   }
-  .grid__item:last-child{
+
+  .grid__item:last-child {
     grid-column: auto / auto;
     grid-row: auto / auto;
   }
-  h1{
+
+  h1 {
     font-size: 22px;
   }
 }
 
-@keyframes enlarge-city{
-  from{
-    transform: scale(1.25,1.25);
+@keyframes enlarge-city {
+  from {
+    transform: scale(1.25, 1.25);
   }
-  to{
-    transform: scale(.95,.95);
+
+  to {
+    transform: scale(0.95, 0.95);
   }
 }
 
-.stlouis{
+.stlouis {
   width: 100%;
   padding: 60px;
   animation: 3s enlarge-city 10 alternate linear;
 }
 
-.contact-info{
+.contact-info {
   padding: 20px;
 }
