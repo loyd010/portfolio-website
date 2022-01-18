@@ -43,25 +43,6 @@ h3 {
   line-height: var(--line-height);
 }
 
-a:link {
-  color: var(--primary-color);
-}
-
-a:visited {
-  color: var(--secondary-color);
-}
-
-a:hover,
-a:focus {
-  text-decoration: none;
-  font-weight: var(--font-weight700);
-}
-
-a:active {
-  color: #000;
-  font-weight: var(--font-weight700);
-}
-
 button,
 .button {
   border: none;
@@ -86,6 +67,25 @@ button:focus,
   opacity: 0.8;
   width: 230px;
   height: 50px;
+}
+
+a:link {
+  color: var(--primary-color);
+}
+
+a:visited {
+  color: var(--secondary-color);
+}
+
+a:hover,
+a:focus {
+  text-decoration: none;
+  font-weight: var(--font-weight700);
+}
+
+a:active {
+  color: #000;
+  font-weight: var(--font-weight700);
 }
 
 .navigation-list__item--active {
