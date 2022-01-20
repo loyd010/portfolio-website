@@ -48,10 +48,10 @@ button,
   border: none;
   display: inline-block;
   font-family: inherit;
-  background-color: #09151c;
+  background-color: #2f4f4f;
   color: white;
   text-decoration: none;
-  padding: 10px;
+  padding: 20px;
   border-radius: 3px;
   border-bottom: 2px solid rgba(0, 0, 0, 0.3);
   width: 200px;
