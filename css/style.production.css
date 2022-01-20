@@ -269,3 +269,11 @@ a:active {
 .contact-info {
   padding: 20px;
 }
+
+input {
+  border-width: 1px;
+}
+
+textarea {
+  border-width: 1px;
+}
