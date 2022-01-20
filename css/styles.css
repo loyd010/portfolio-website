@@ -48,7 +48,7 @@ button,
   border: none;
   display: inline-block;
   font-family: inherit;
-  background-color: var(--primary-color);
+  background-color: #09151c;
   color: white;
   text-decoration: none;
   padding: 10px;
